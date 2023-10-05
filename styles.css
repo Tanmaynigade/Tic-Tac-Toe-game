@@ -5,6 +5,7 @@
     font-family: 'Poppins', 'sans-serif';
 }
 
+
 .wrapper{
     width: 100vw;
     height: 100vh;
@@ -12,6 +13,7 @@
     background-size: cover;
     background-position: center;
     display: grid;
+    
     place-items: center;
 }
 
@@ -36,7 +38,7 @@
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 2rem;
-    display: grid;
+    display: grid;   
     grid-template-columns: repeat(3, 1fr);
     aspect-ratio: 1/1;
 }
@@ -79,6 +81,7 @@
     padding: 0.5rem 2rem;
     cursor:pointer;
     display: none;
+    
 }
 
 .btn.active{
